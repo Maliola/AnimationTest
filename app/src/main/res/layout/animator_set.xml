@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/id_container">
+
+    <ImageView
+        android:id="@+id/ball"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ball_shape" />
+
+    <Button
+        android:layout_below="@id/ball"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="easyrun"
+        android:text="简单的多动画Together" />
+
+    <Button
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="100dp"
+        android:layout_below="@id/ball"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="playrun"
+        android:text="多动画按次序执行" />
+
+</RelativeLayout>
