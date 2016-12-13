@@ -8,14 +8,16 @@ import android.view.View;
 import android.widget.ImageView;
 
 public class FrameActivity extends AppCompatActivity {
-    private ImageView imageView;
+    private ImageView imageView,imageView2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         imageView = (ImageView) findViewById(R.id.imageView);
-        /*((AnimationDrawable) imageView.getDrawable()).start();*/
+        imageView2= (ImageView) findViewById(R.id.imageView2);
+        AnimationDrawable animationDrawable = (AnimationDrawable)(imageView2).getDrawable();
+        animationDrawable.start();
     }
     public void addanim(View view){
         AnimationDrawable anim=new AnimationDrawable();
