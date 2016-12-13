@@ -31,7 +31,7 @@ public class LayoutAnimaActivity extends Activity implements CompoundButton.OnCh
 
         viewGroup = (ViewGroup) findViewById(R.id.id_container);
 
-       mAppear = (CheckBox) findViewById(R.id.id_appear);
+        mAppear = (CheckBox) findViewById(R.id.id_appear);
         mChangeAppear = (CheckBox) findViewById(R.id.id_change_appear);
         mDisAppear = (CheckBox) findViewById(R.id.id_disappear);
         mChangeDisAppear = (CheckBox) findViewById(R.id.id_change_disappear);

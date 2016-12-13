@@ -25,8 +25,8 @@ import java.util.List;
 
 public class PropertyActivity extends ListActivity {
     private List<String> mData = new ArrayList<String>(Arrays.asList(
-            "使用xml创建属性动画", "ObjectAnimator的方式创建动画", "AnimatorSet创建动画",
-            "View的anim方法", "Layout Anim", "ValueAnimator创建动画"));
+            "xml属性动画", "ObjectAnimator动画", "AnimatorSet动画",
+            "View的anim", "Layout Anim", "ValueAnimator动画"));
     private ListAdapter mAdapter;
 
     @Override
